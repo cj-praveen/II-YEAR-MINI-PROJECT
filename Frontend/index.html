@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="select-text">
+    <nav class="w-full h-[50px] flex flex-row items-center justify-around p-6 bg-[rgba(1,1,1,1)] text-white">
+        <h1 class="font-semibold text-xl">E-Commerce</h1>
+        <button>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="white">
+                <path d="M240-80q-33 0-56.5-23.5T160-160v-480q0-33 23.5-56.5T240-720h80q0-66 47-113t113-47q66 0 113 47t47 113h80q33 0 56.5 23.5T800-640v480q0 33-23.5 56.5T720-80H240Zm0-80h480v-480h-80v80q0 17-11.5 28.5T600-520q-17 0-28.5-11.5T560-560v-80H400v80q0 17-11.5 28.5T360-520q-17 0-28.5-11.5T320-560v-80h-80v480Zm160-560h160q0-33-23.5-56.5T480-800q-33 0-56.5 23.5T400-720ZM240-160v-480 480Z"/>
+            </svg>
+        </button>
+    </nav>
+    <form class="flex items-center w-[550px] mx-auto h-[45px] bg-[rgba(1,1,1,0.050)] my-3 rounded-lg duration-300 focus-within:w-[600px] px-4">
+        <input type="search" placeholder="Search" name="query" autocapitalize="off" spellcheck="false" autofocus autocomplete="off" class="w-full h-full bg-transparent border-none outline-none" >
+        <button type="submit">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="rgba(1,1,1,0.2)">
+                <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+            </svg>
+        </button>
+    </form>
+    <div id="banner" class="w-full h-[250px] bg-[rgba(1,1,1,0.1)]">
+        <img class="object-cover object-top w-full h-full" src="https://xiaomitime.com/wp-content/uploads/2024/10/translated_image_en-19-1.png" alt="">
+    </div>
+    <section class="my-3 w-full h-[300px] px-6 py-3">
+        <div id="product" class="h-full w-[200px] bg-[rgba(1,1,1,0.030)] hover:scale-105 duration-300 rounded-md border border-[rgba(1,1,1,0.070)]">
+            <img class="w-full h-[200px] object-cover object-top rounded-md" src="https://iplanet.one/cdn/shop/files/iPhone_15_Pro_Blue_Titanium_PDP_Image_Position-1__en-IN.jpg?v=1695434973" alt="">
+            <h2 class="px-3 py-1">iPhone 15 Pro 128GB</h2>
+            <div class="w-full h-[25px] px-3 flex items-center justify-between text-sm mt-1">
+                <div class="flex items-center gap-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="18px" viewBox="0 -960 960 960" width="18px" fill="black">
+                        <path d="M480-320q48 0 85.5-28.5T620-422H340q17 45 54.5 73.5T480-320ZM380-480q25 0 42.5-17.5T440-540q0-25-17.5-42.5T380-600q-25 0-42.5 17.5T320-540q0 25 17.5 42.5T380-480Zm200 0q25 0 42.5-17.5T640-540q0-25-17.5-42.5T580-600q-25 0-42.5 17.5T520-540q0 25 17.5 42.5T580-480ZM305-704l112-145q12-16 28.5-23.5T480-880q18 0 34.5 7.5T543-849l112 145 170 57q26 8 41 29.5t15 47.5q0 12-3.5 24T866-523L756-367l4 164q1 35-23 59t-56 24q-2 0-22-3l-179-50-179 50q-5 2-11 2.5t-11 .5q-32 0-56-24t-23-59l4-165L95-523q-8-11-11.5-23T80-570q0-25 14.5-46.5T135-647l170-57Zm49 69-194 64 124 179-4 191 200-55 200 56-4-192 124-177-194-66-126-165-126 165Zm126 135Z"/>
+                    </svg>
+                    <span>4.5</span>
+                </div>
+                <span class="font-semibold">$1199</span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
